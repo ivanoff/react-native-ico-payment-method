@@ -2,7 +2,7 @@
 
 ### Payment Method Icons for React Native
 
-369 Icons
+47 Icons
 
 ## Usage
 
@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-payment-method';
 render() {
     return (
         <Fragment>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="visa" />
+          <Icon name="bitcoin" height="40" width="40" />
+          <Icon name="mastercard" color="red" />
         </Fragment>
     );
 }
