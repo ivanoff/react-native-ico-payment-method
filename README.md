@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Payment Method Icons](static/payment-method.md)
+- [List of Payment Method Icons](http://ico.simpleness.org/pack/payment-method)
 
 ## Installation
 
