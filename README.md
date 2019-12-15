@@ -1,8 +1,8 @@
-# Payment Method Icons for React Native
+# payment method Icons for React Native
 
 ### react-native-ico-payment-method
 
-47 Icons
+369 Icons
 
 ## Usage
 
@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-payment-method';
 render() {
     return (
         <>
-          <Icon name="visa" />
-          <Icon name="bitcoin" height="40" width="40" />
-          <Icon name="mastercard" color="red" />
+          <Icon name="home" />
+          <Icon name="file" height="40" width="40" />
+          <Icon name="smile" color="red" />
         </>
     );
 }
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Payment Method Icons](http://ico.simpleness.org/pack/payment-method)
+- [List of payment method Icons](http://ico.simpleness.org/pack/payment-method)
 
 ## Installation
 
@@ -69,7 +69,7 @@ height | yes | 20 | height of the icon | 40
 
 ## Icons Made by
 
-[Roundicons](https://www.flaticon.com/authors/roundicons)
+[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
 
 ## Created by
 
