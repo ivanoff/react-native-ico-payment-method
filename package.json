@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-payment-method",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "description": "payment method Icons for React Native",
   "main": "src/index.js",
   "dependencies": {
