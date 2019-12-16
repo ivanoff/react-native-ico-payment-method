@@ -1,4 +1,4 @@
-module.exports = `
+module.exports = {
 	'worldpay': `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
 <path style="fill:#366FC1;" d="M95.2,276.8H77.6l-15.2-55.2c-1.6-5.6-2.4-11.2-3.2-16.8l0,0c-0.8,5.6-1.6,11.2-3.2,16.8l-15.2,56
@@ -2710,4 +2710,4 @@ module.exports = `
 <path style="fill:#0AD9EF;" d="M319.2,37.6c0-9.6-0.8-19.2-2.4-28C295.2,3.2,272,0,248,0C160.8,0,84.8,44.8,40,112.8
 	c14.4,25.6,36.8,45.6,63.2,58.4c8.8-4.8,19.2-8,32.8-8c20.8,0,37.6,8.8,46.4,22.4C259.2,180,319.2,116,319.2,37.6z"/>
 </svg>
-``
+`}
