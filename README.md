@@ -1,8 +1,8 @@
-# payment method Icons for React Native
+# Payment Method Icons for React Native
 
 ### react-native-ico-payment-method
 
-369 Icons
+47 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of payment method Icons](http://ico.simpleness.org/pack/payment-method)
+- [List of Payment Method Icons](http://ico.simpleness.org/pack/payment-method)
 
 ## Installation
 

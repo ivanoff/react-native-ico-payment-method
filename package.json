@@ -1,10 +1,10 @@
 {
   "name": "react-native-ico-payment-method",
-  "version": "2.2.1",
-  "description": "payment method Icons for React Native",
+  "version": "2.3.1",
+  "description": "Payment Method Icons for React Native",
   "main": "src/index.js",
   "dependencies": {
-    "react-svg-main": "^0.2.2"
+    "react-svg-main": "^0.3.1"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,11 @@
     "Icons",
     "Icon",
     "SVG",
-    "payment method"
+    "Payment Method"
   ],
   "author": "Dimitry Ivanov <2@ivanoff.org.ua> # curl -A cv ivanoff.org.ua",
   "bugs": {
     "url": "https://github.com/ivanoff/react-native-ico-payment-method/issues"
   },
-  "homepage": "https://github.com/ivanoff/react-native-ico-payment-method"
+  "homepage": "http://ico.simpleness.org/pack/payment-method"
 }
