@@ -1,10 +1,10 @@
 {
   "name": "react-native-ico-payment-method",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Payment Method Icons for React Native",
   "main": "src/index.js",
   "dependencies": {
-    "react-svg-main": "^2.2.2"
+    "react-svg-main": "^2.2.3"
   },
   "repository": {
     "type": "git",
