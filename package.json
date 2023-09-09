@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-payment-method",
-  "version": "4.1.3",
+  "version": "4.1.4",
   "description": "Payment Method Icons for React Native",
   "main": "src/index.jsx",
   "types": "typings.d.ts",
