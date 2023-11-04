@@ -23,6 +23,7 @@ render() {
           <Icon name="western-union-1" />
           <Icon name="western-union" height="40" width="40" />
           <Icon name="wepay" color="red" />
+          <Icon name="wepay" colors={{ "#000000": "#FFFFFF" }} />
           <Icon name="western-union" badge="10" />
           <Icon name="western-union" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
           <Icon name="western-union-1" background="circle" />
@@ -69,13 +70,14 @@ Returns a SvgXml icon by name and group.
 ------|----------|---------------|-------------|---------
 name | no |  | name of icon | "western-union-1"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
+colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
-background | no | | background type | "circle"
-background | no | | background object | {type: "circle", color: 'yellow'}
-badge | no | | badge string | "10"
-badge | no | | badge object | {value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}
-...rest | no | | other props | style={{backgroundColor: "#00f"}}
+background | yes | | background type | "circle"
+background | yes | | background object | {type: "circle", color: 'yellow'}
+badge | yes | | badge string | "10"
+badge | yes | | badge object | {value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}
+...rest | yes | | other props | style={{backgroundColor: "#00f"}}
 
 ## Icons Made by
 
