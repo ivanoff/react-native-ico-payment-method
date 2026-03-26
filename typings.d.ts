@@ -1,54 +1,60 @@
 declare module 'react-native-ico-payment-method' {
     import { ReactNode } from 'react';
-    import { SvgProps, AdditionalProps } from 'react-native-svg';
+    import { SvgProps } from 'react-native-svg';
 
-    type iconNames = 'worldpay' |
-      'wirecard' |
-      'western-union-2' |
-      'western-union-1' |
-      'western-union' |
-      'wepay' |
-      'visa' |
+    type AdditionalProps = {
+      onError?: (error: Error) => void;
+      onLoad?: () => void;
+      fallback?: ReactNode;
+    };
+
+    type iconNames = 'ideal' |
+      'citi' |
       'unionpay' |
-      'switch' |
-      'standard-chartered' |
-      'spotify' |
-      'shopify' |
-      'sage' |
-      'postepay' |
-      'picknplay' |
-      'paypoint' |
-      'paypal-2' |
-      'paypal-1' |
-      'paypal' |
+      'bitcoin' |
+      'visa' |
       'o' |
-      'moneygram' |
-      'mastercard-2' |
-      'mastercard-1' |
-      'mastercard' |
-      'jcb' |
-      'ideal' |
-      'hsbc' |
-      'google-wallet' |
-      'generali' |
-      'eway' |
+      'western-union-1' |
       'eventbrite' |
-      'ebay' |
-      'e' |
+      'mastercard-1' |
+      'shopify' |
+      'authorize' |
+      'spotify' |
+      'western-union-2' |
+      'amazon' |
+      'paypoint' |
+      'bbb' |
+      '2co' |
+      'sage' |
+      'moneygram' |
+      'eway' |
+      'cirrus' |
+      'worldpay' |
+      'switch' |
       'discover' |
       'direct-debit' |
-      'diners-club' |
+      'paypal-1' |
+      'generali' |
+      'paypal-2' |
       'clickbank' |
-      'citi' |
-      'cirrus' |
-      'bluepay' |
-      'bitcoin' |
-      'bbb-1' |
-      'bbb' |
-      'authorize' |
+      'standard-chartered' |
+      'e' |
+      'wepay' |
+      'jcb' |
       'american-express' |
-      'amazon' |
-      '2co';
+      'mastercard' |
+      'picknplay' |
+      'google-wallet' |
+      'ebay' |
+      'bluepay' |
+      'diners-club' |
+      'paypal' |
+      'western-union' |
+      'postepay' |
+      'wirecard' |
+      'bbb-1' |
+      'mastercard-2' |
+      'hsbc';
 
     type iconColors = '#003F66' |
       '#004760' |
@@ -295,7 +301,7 @@ declare module 'react-native-ico-payment-method' {
       width?: number;
       height?: number;
       color?: string;
-      colors: colorsType;
+      colors?: colorsType;
       stroke?: number;
       background?: backgroundType | backgroundTypeObj;
       badge?: number | string | badgeTypeObj;

@@ -4,7 +4,7 @@
 
 47 Vector Icons for React Native
 
-<img src="./static/western-union-1.png" alt="western-union-1" width="150" height="150"> <img src="./static/western-union.png" alt="western-union" width="150" height="150"> <img src="./static/wepay.png" alt="wepay" width="150" height="150">
+<img src="./static/bitcoin.png" alt="bitcoin" width="150" height="150"> <img src="./static/visa.png" alt="visa" width="150" height="150"> <img src="./static/o.png" alt="o" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-payment-method';
 render() {
     return (
         <>
-          <Icon name="western-union-1" />
-          <Icon name="western-union" height="40" width="40" />
-          <Icon name="wepay" color="red" />
-          <Icon name="wepay" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="western-union" badge="10" />
-          <Icon name="western-union" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="western-union-1" background="circle" />
-          <Icon name="western-union-1" background={{ type: "button", color: 'green' }} />
+          <Icon name="bitcoin" />
+          <Icon name="visa" height="40" width="40" />
+          <Icon name="o" color="red" />
+          <Icon name="o" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="visa" badge="10" />
+          <Icon name="visa" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="bitcoin" background="circle" />
+          <Icon name="bitcoin" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -54,7 +54,9 @@ npm install --save react-native-ico-payment-method react-native-svg
 react-native link react-native-svg
 ```
 
-### pod install ( for iOS )
+`react-native-svg` is a peer dependency. Install a current version in the app so the package uses the app-level native module instead of pulling in an older nested copy.
+
+### pod install (for iOS)
 
 ```
 cd ios && pod install && cd ..
@@ -68,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "western-union-1"
+name | no |  | name of icon | "bitcoin"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
